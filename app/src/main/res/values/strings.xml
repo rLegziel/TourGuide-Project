@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+    
+    <string name="category_natural">Natural</string>
+    <string name="category_historical">Historical</string>
+    <string name="category_restaurants">Restaurants</string>
+    <string name="category_bars">Bars</string>
+</resources>
