@@ -41,10 +41,10 @@ public class LandmarkAdapter extends ArrayAdapter<Landmark> {
 
         TextView infoTextView = (TextView) listItemView.findViewById(R.id.info);
         // put the info on the currentWord
-        infoTextView.setText(currentWord.getName());
+        infoTextView.setText(currentWord.getInfo());
 
 
-        ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
+        ImageView imageView = (ImageView) listItemView.findViewById(R.id.picture);
         // Check if an image is provided for this word or not
         if (currentWord.hasImage()) {
             // If an image is available, display the provided image based on the resource ID
@@ -52,7 +52,7 @@ public class LandmarkAdapter extends ArrayAdapter<Landmark> {
             // Make sure the view is visible
             imageView.setVisibility(View.VISIBLE);
         } else {
-            // Otherwise hide the ImageView (set visibility to GONE)
+            // Otherwise hide the ImageView
             imageView.setVisibility(View.GONE);
         }
 
