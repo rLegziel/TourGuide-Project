@@ -7,28 +7,28 @@ package com.example.android.tourguide;
 public class Landmark {
 
 
-    private String mName;
-    private String mInfo;
+    private int mName;
+    private int mInfo;
     private int mImageResourceId = NO_IMAGE_PROVIDED;
     private static final int NO_IMAGE_PROVIDED = -1;
 
-    public Landmark(String name, String info, int imageResourceId) {
+    public Landmark(int name, int info, int imageResourceId) {
         mName = name;
         mInfo = info;
         mImageResourceId = imageResourceId;
     }
 
-    public Landmark(String name, String info) {
+    public Landmark(int name, int info) {
         mName = name;
         mInfo = info;
 
     }
 
-    public String getName() {
+    public int getName() {
         return mName;
     }
 
-    public String getInfo() {
+    public int getInfo() {
         return mInfo;
     }
 

@@ -23,10 +23,10 @@ public class NaturalFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.landmark_list, container, false);
 
         final ArrayList<Landmark> landmarks = new ArrayList<Landmark>();
-        landmarks.add(new Landmark("The Dead Sea", "Israel;Jordan", R.drawable.deadsea));
-        landmarks.add(new Landmark("Sea Of Galilee", "Tiberias,Israel", R.drawable.kineret));
-        landmarks.add(new Landmark("Ramon Crater", "Sde Boker,Israel", R.drawable.ramoncrater));
-        landmarks.add(new Landmark("Rosh Hanikra", "Western Galilee,Israel", R.drawable.roshhanikra));
+        landmarks.add(new Landmark(R.string.deadName,R.string.deadLocation, R.drawable.deadsea));
+        landmarks.add(new Landmark(R.string.seaName,R.string.seaLocation, R.drawable.kineret));
+        landmarks.add(new Landmark(R.string.ramonName,R.string.ramonLocation, R.drawable.ramoncrater));
+        landmarks.add(new Landmark(R.string.roshName,R.string.roshInfo, R.drawable.roshhanikra));
 
 
         LandmarkAdapter adapter = new LandmarkAdapter(getActivity(), landmarks);

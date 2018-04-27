@@ -5,4 +5,55 @@
     <string name="category_historical">Culture</string>
     <string name="category_restaurants">Food</string>
     <string name="category_bars">Bars</string>
+    <string name="massadaName">Massada</string>
+    <string name="westernWall">Western Wall</string>
+    <string name="rockDome">The Rock Dome</string>
+    <string name="church">Church Of The Holy Sepulchre</string>
+    <string name="massadaInfo">Massada,Ein Gedi,Israel</string>
+    <string name="westernInfo">Jerusalem,Israel</string>
+    <string name="rockDomeInfo">Jerusalem,Israel</string>
+    <string name="churchInfo">Jerusalem,Israel</string>
+    <string name="madisonName">Madison Square Garden</string>
+    <string name="imperialName">Imperial Cocktail Bar</string>
+    <string name="socialName">Social Club</string>
+    <string name="syncopaName">Syncopa Bar</string>
+    <string name="beerName">BeerBazaar</string>
+    <string name="madisonInfo">Ha-Menofim St 5, Herzliya, Israel
++972 54-738-8838</string>
+    <string name="imperialInfo">HaYarkon St 66, Tel Aviv-Yafo, Israel
++972 73-264-9464</string>
+    <string name="socialInfo">Rothschild Blvd 45, Tel Aviv-Yafo, Israel
++972 3-560-1114</string>
+    <string name="syncopaInfo">Khayat St 5, Haifa, Israel
++972 54-614-2643</string>
+    <string name="beerInfo">Etz Hayyim St 3, Jerusalem, Israel
++972 2-671-2559</string>
+    <string name="deadName">The Dead Sea</string>
+    <string name="deadLocation">Israel;Jordan</string>
+    <string name="seaName">Sea Of Galilee</string>
+    <string name="seaLocation">Tiberias,Israel</string>
+    <string name="ramonName">Ramon Crater</string>
+    <string name="ramonLocation">Sde Boker,Israel</string>
+    <string name="roshName">Rosh Hanikra</string>
+    <string name="roshInfo">Western Galilee,Israel</string>
+    <string name="machneName">Machneyuda</string>
+    <string name="machneInfo">Beit Ya\'akov St 10, Jerusalem, Israel
++972 2-533-3442</string>
+    <string name="abuName">Abu Hassan</string>
+    <string name="abuInfo">HaDolfin Street St 1, Tel Aviv-Jaffa, Israel
+ +972 3-682-0387</string>
+    <string name="taizuName">Taizu</string>
+    <string name="taizuInfo">Derech Menachem Begin 23, Tel Aviv, Israel
++972 9-954-6000</string>
+    <string name="meatName">MeatBar</string>
+    <string name="meatInfo">Ha-Sadna\'ot St 4, Herzliya, Israel
++972 3-522-5005</string>
+    <string name="oldManName">The Old Man and The Sea</string>
+    <string name="oldManInfo">Retzif HaAliya HaShniya St 101, Tel Aviv-Yafo, Israel
++972 3-544-8820</string>
+
+
+
+
+
 </resources>

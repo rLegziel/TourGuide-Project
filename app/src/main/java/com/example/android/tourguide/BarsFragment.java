@@ -23,11 +23,11 @@ public class BarsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.landmark_list, container, false);
 
         final ArrayList<Landmark> landmarks = new ArrayList<Landmark>();
-        landmarks.add(new Landmark("Madison Square Garden", "Ha-Menofim St 5, Herzliya, Israel \n+972 54-738-8838"));
-        landmarks.add(new Landmark("Imperial Cocktail Bar", "HaYarkon St 66, Tel Aviv-Yafo, Israel \n+972 73-264-9464"));
-        landmarks.add(new Landmark("Social Club", "Rothschild Blvd 45, Tel Aviv-Yafo, Israel \n+972 3-560-1114"));
-        landmarks.add(new Landmark("Syncopa Bar", "Khayat St 5, Haifa, Israel \n+972 54-614-2643"));
-        landmarks.add(new Landmark("BeerBazaar", "Etz Hayyim St 3, Jerusalem, Israel \n+972 2-671-2559"));
+        landmarks.add(new Landmark(R.string.madisonName, R.string.madisonInfo));
+        landmarks.add(new Landmark(R.string.imperialName,R.string.imperialInfo));
+        landmarks.add(new Landmark(R.string.socialName,R.string.socialInfo));
+        landmarks.add(new Landmark(R.string.syncopaName, R.string.syncopaInfo));
+        landmarks.add(new Landmark(R.string.beerName, R.string.beerInfo));
 
         LandmarkAdapter adapter = new LandmarkAdapter(getActivity(), landmarks);
 
